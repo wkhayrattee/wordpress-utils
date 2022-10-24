@@ -1,0 +1,25 @@
+{
+  "name": "wkhayrattee/wordpress-utils",
+  "description": "A list of reusable components I use across my WordPress projects",
+  "keywords": ["wordpress utils", "wordpress", "wordpress-dev"],
+  "minimum-stability": "dev",
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Wasseem Khayrattee",
+      "email": "hey@wk.contact",
+      "homepage": "https://github.com/wkhayrattee"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WkWordPressUtils\\": "src/"
+    },
+    "files": [
+      "src/wkwordpress_utils.php"
+    ]
+  },
+  "require": {
+    "caseyamcl/toc": "3.1"
+  }
+}
