@@ -18,7 +18,7 @@ class Utils
      *
      * @return string The root domain URL without subfolders.
      */
-    public static function get_root_domain_url()
+    public static function get_root_domain_url(): string
     {
         $site_url = site_url();
         $parsed_url = parse_url($site_url);
